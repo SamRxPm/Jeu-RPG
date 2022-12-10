@@ -1,0 +1,181 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url("sprite/background.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.scene{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.gentils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mechant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boiteHaut{
+    width: 100vw;
+    background-color: #7E684A;
+    height: 11vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+
+.box1{
+    width: 400px;
+    height: 93px;
+    border: 2px solid #CAD5E2;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #B04D4D;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+}
+.box2{
+    width: 400px;
+    height: 93px;
+    border: 2px solid #CAD5E2;
+    text-align: center;
+    font-size: 4rem;
+    background-color: #B04D4D;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+    
+}
+.box3{
+    width: 400px;
+    height: 93px;
+    border: 2px solid #CAD5E2;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #B04D4D;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+}
+
+.boiteBas{
+    width: 100vw;
+    background-color: #7E684A;
+    height: 21vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around
+
+}
+
+.box4{
+    width: 400px;
+    height: 193px;
+    border: 2px solid #CAD5E2;
+    background-color: #6087AB;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.box5{
+    width: 400px;
+    height: 193px;
+    border: 2px solid #CAD5E2;
+    background-color: #6087AB;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    
+}
+.box6{
+    width: 400px;
+    height: 193px;
+    border: 2px solid #CAD5E2;
+    background-color: #6087AB;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.box7{
+    width: 400px;
+    height: 193px;
+    border: 2px solid #CAD5E2;
+    background-color: #6087AB;
+    border-radius: 2px solid #FF6666;
+    color: #CAD5E2;
+    margin: 3px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+#PV1{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:14vw;
+    bottom:30.5vw;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(211, 34, 34, 0.6);
+}
+
+#PV2{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:47vw;
+    bottom:30.5vw;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(211, 34, 34, 0.6);
+}
+
+#PV3{
+    border-radius: 25px;
+    position:absolute;
+    color:white;
+    z-index: 3;
+    left:80.5vw;
+    bottom:30.5vw;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+    border: 3px solid white;
+    background: rgba(211, 34, 34, 0.6);
+}

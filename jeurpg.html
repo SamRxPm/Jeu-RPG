@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeuRpgETPA</title>
+    <link rel = "stylesheet" href="jeurpg.css">
+    <script src="jeurpg.js" async></script>
+
+</head>
+
+<body>
+
+    <div id="PV1">200pv</div>
+    <div id="PV2">300pv</div>
+    <div id="PV3">200pv</div>
+
+
+
+    <div class="scene">
+        <div class="boiteHaut">
+            <div class="box1">Jawa</div>
+            <div class="box2">Dark Maul</div>
+            <div class="box3">Droide</div>
+        </div>
+        
+        <div class="mechant">
+            <div id="Jawa">
+                <img src="sprite/jawa.png"
+                title="Jawa"
+                width="250"
+                leigt="300">
+            </div>
+
+            <div id="Dark_maul">
+                <img src="sprite/dark_maul.png"
+                title="Dark Maul"
+                width="250"
+                leigt="300">
+            </div>
+
+            <div id="Droide">
+                <img src="sprite/droide.png"
+                title="Droide"
+                width="250"
+                leigt="300">
+            </div>
+        </div>
+        <div class="gentils">
+            <div id="Jedi_1">
+                <img src="sprite/jedi_1.png"
+                title="Jedi 1"
+                width="250"
+                leigt="300">
+            </div>
+
+            <div id="Jedi_2">
+                <img src="sprite/jedi_2.png"
+                title="Jedi 2"
+                width="250"
+                leigt="300">
+            </div>
+
+            <div id="R2d2">
+                <img src="sprite/r2d2.png"
+                title="R2d2"
+                width="250"
+                leigt="300">
+            </div>
+
+            <div id="Clone">
+                <img src="sprite/clone.png"
+                title="Clone"
+                width="250"
+                leigt="300">
+            </div>
+        </div>
+        <div class="boiteBas">
+            <div class="box4"><button id="Attaque" onclick="degats1()">ATTAQUE</button><button onclick="defJedi1">DEFENDRE</button><button onclick="SPEJedi1">SPECIAL</button></div>
+            <div class="box5"><button id="Attaque" onclick="degats2()">ATTAQUE</button><button onclick="defJedi2">DEFENDRE</button><button onclick="SPEJedi2">SPECIAL</button></div>
+            <div class="box6"><button id="Attaque" onclick="degats4()">ATTAQUE</button><button onclick="r2d2">DEFENDRE</button><button onclick="r2d2">SPECIAL</button></div>
+            <div class="box7"><button id="Attaque" onclick="degats3()">ATTAQUE</button><button onclick="clone">DEFENDRE</button><button onclick="clone">SPECIAL</button></div>
+            
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
